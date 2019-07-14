@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ng.com.grazac.andelaandroidchallenge">
+    package="ng.com.andelaandroidchallenge.franklin">
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
@@ -11,27 +11,25 @@
         android:theme="@style/AppTheme">
 
 
-        <activity android:name=".MainActivity">
+        <activity android:name="ng.com.andelaandroidchallenge.franklin.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ProfileActivity"
-            android:label="My Profile"
-            >
+        <activity android:name="ng.com.andelaandroidchallenge.franklin.ProfileActivity"
+            android:label="My Profile">
 
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="ng.com.andelaandroidchallenge.franklin.MainActivity" />
         </activity>
-        <activity android:name=".AboutALCActivity"
-            android:label="About ALC"
-            >
+        <activity android:name="ng.com.andelaandroidchallenge.franklin.AboutALCActivity"
+            android:label="About ALC">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="ng.com.andelaandroidchallenge.franklin.MainActivity" />
 
         </activity>
     </application>

@@ -1,7 +1,8 @@
-package ng.com.grazac.andelaandroidchallenge;
+package ng.com.andelaandroidchallenge.franklin;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
 
 public class ProfileActivity extends AppCompatActivity {
 

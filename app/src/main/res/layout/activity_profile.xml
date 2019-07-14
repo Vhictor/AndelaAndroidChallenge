@@ -15,18 +15,19 @@
         android:layout_weight="1">
 
         <ImageView
-            android:src="@drawable/profile_picture"
+            android:src="@drawable/franklin"
             android:layout_width="135dp"
             android:layout_height="135dp"
             android:layout_marginBottom="10dp"
-            android:layout_gravity="center" />
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:text="ADELEYE Victor Adeyinka"
-            android:textStyle="bold"
+            android:text="Oladipo Franklin"
+
             />
         <View
             android:layout_marginTop="5dp"
@@ -42,7 +43,10 @@
 
 
     <LinearLayout
-        android:layout_margin="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -72,7 +76,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="15sp"
-            android:text="Email: adeleyevictor40@gmail.com"
+            android:text="Email: ibukunoladipo2015@gmail.com"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             />
 
@@ -81,7 +85,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="15sp"
-            android:text="Phone number: +2349069167788"
+            android:text="Phone number: +2348146748942"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             />
 
@@ -90,7 +94,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="15sp"
-            android:text="Slack Username: @Vhictor"
+            android:text="Slack Username: @Frankdroid7"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             />
     </LinearLayout>

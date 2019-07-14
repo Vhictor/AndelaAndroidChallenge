@@ -1,4 +1,4 @@
-package ng.com.grazac.andelaandroidchallenge;
+package ng.com.grazac.franklin;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

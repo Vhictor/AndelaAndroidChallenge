@@ -1,4 +1,4 @@
-package ng.com.grazac.andelaandroidchallenge;
+package ng.com.grazac.franklin;
 
 import org.junit.Test;
 
